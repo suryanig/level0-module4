@@ -33,15 +33,15 @@ def draw():
         # If it is, print “Waldo found!”  Use the text() command to write it
         # on the sketch.
         if mouseX >  683 and mouseX < 737 and mouseY >366 and mouseY < 492:
-            text("Waldo found!")
+            print("Waldo found!")
             # Use the play_woohoo() method below.
-            play_wohoo()
+       
         # However, if the mouse is not on Waldo, print "Not here!" 
         # Use the text() command to write it on the sketch.
         else:
-            text("Not here!")  
+            print("Not here!")  
             # Use the play_doh() method below.
-            play_doh()
+        
 
     pass    
 
