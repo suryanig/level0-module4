@@ -1,7 +1,7 @@
 """
 Write a program to return the correct letter grade
 """
-from tkinter import messagebox, simpledialog
+from tkinter import messagebox, simpledialog,Tk
 
 # The teacher wants you to write a program that converts the score on 2
 # 100 point tests to a letter grade. The teacher wants you to average the
@@ -13,6 +13,8 @@ from tkinter import messagebox, simpledialog
 #   D = 59.5 to less than 69.5
 #   F = less than 59.5
 if __name__ == '__main__':
+    window = Tk()
+    window.withdraw()
     # TODO) Ask the user for their score on the FIRST test and store their
     #  score in a variable
     first = simpledialog.askinteger(title='First Test Score', prompt="What was the score of your first test?")
@@ -35,7 +37,7 @@ if __name__ == '__main__':
     elif average >= 59.5 and average < 69.5:
         messagebox.showinfo(message = "That's a D! Try harder next time.")
     elif average < 59.5 and average >= 0:
-        messagebox.showinfo(message = "That's and F! You failed.")
+        messagebox.showinfo(message = "That's an F! You failed.")
     else:
         messagebox.showinfo(message="Sorry, that's not a possible grade you can get.")
     pass

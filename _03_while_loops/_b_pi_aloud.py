@@ -14,9 +14,9 @@ if __name__ == '__main__':
     # TODO) Print out the first 3 digits of pi. For example,
     #  pi_str[0]   # first digit
     #  pi_str[1]   # second digit
-
+    pi_str = "3.1415926535897932384"
     # TODO) Use a while loop to keep asking for the next digit of pi
-
+    while
         # TODO) If they are correct, print "correct".
         #  If they are not, print "incorrect" and break out of the while loop
 
