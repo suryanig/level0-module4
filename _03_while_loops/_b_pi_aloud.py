@@ -33,4 +33,4 @@ if __name__ == '__main__':
 
     # TODO) Print out how many digits of pi the user was able to recite
     #  in a row
-    print("You recalled " + score + " digits of pi")
+    print("You recalled " + str(score) + " digits of pi")
